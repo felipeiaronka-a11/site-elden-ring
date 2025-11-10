@@ -1,0 +1,83 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background-color: black;
+}
+#nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+#nav-links a {
+  font-size: 35px;
+}
+.logo-img {
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+}
+#nav-links li {
+  margin-right: 50px;
+  height: auto;
+  width: auto;
+}
+i,
+a {
+  flex-direction: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding: 5px 0;
+  letter-spacing: 1px;
+}
+#imagem-capa {
+  width: 100%;
+  height: 85vh;
+}
+#imagem-capa img {
+  width: 100%;
+  height: 85vh;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+}
+h1 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  padding: 10px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgba(209, 184, 120, 0.5);
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+p {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(236, 207, 133);
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  text-align: justify;
+}

@@ -1,0 +1,186 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background-color: black;
+}
+#nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+#nav-links a {
+  font-size: 35px;
+}
+.logo-img {
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+}
+#nav-links li {
+  margin-right: 50px;
+  height: auto;
+  width: auto;
+}
+/* --- ESTILO DOS LINKS (Texto) --- */
+li,
+a {
+  flex-direction: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding: 5px 0;
+  letter-spacing: 1px;
+}
+#imagem-capa {
+  width: 100%;
+  height: 85vh;
+}
+#imagem-capa img {
+  width: 100%;
+  height: 85vh;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+}
+h1 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  padding: 10px;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+#iframes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+  align-items: center;
+  iframe {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(209, 184, 120, 0.5);
+  }
+}
+#iframe2 {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  align-items: center;
+  iframe {
+    align-items: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(209, 184, 120, 0.5);
+  }
+}
+p {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(236, 207, 133);
+  padding-top: 10px;
+  padding-left: 80px;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.metacritic-table {
+  width: 100%;
+  margin: 20px 0;
+  padding: 80px;
+  font-size: 19px;
+  text-align: left;
+  align-items: center;
+}
+.metacritic-table th,
+.metacritic-table td {
+  padding: 12px 15px;
+  border: 1px solid rgba(209, 184, 120, 0.5);
+  color: black;
+}
+.metacritic-table th,
+.metacritic-table td {
+  background-color: rgb(209, 184, 120);
+  color: rgba(0, 0, 0, 0.5);
+}
+.metacritic-table tr:nth-child(even) {
+  background-color: rgba(209, 184, 120, 0.5);
+}
+h2,
+h3,
+p,
+li {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(236, 207, 133);
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 32px;
+  color: rgb(209, 184, 120);
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 2px solid rgb(209, 184, 120);
+}
+h2 {
+  font-size: 26px;
+  color: rgb(209, 184, 120);
+  padding: 20px 40px 10px;
+  text-align: left;
+}
+h3 {
+  font-size: 22px;
+  color: #ddd;
+  padding-left: 60px;
+  margin-top: 15px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  padding: 10px 40px;
+  text-align: justify;
+}
+ul {
+  list-style: none;
+  padding-left: 60px;
+  padding-right: 40px;
+}
+
+ul li {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+ul li::before {
+  color: rgb(209, 184, 120);
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 12px;
+}

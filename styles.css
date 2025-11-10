@@ -1,0 +1,126 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+header {
+  background-color: black;
+}
+#nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  margin: 0;
+}
+#nav-links a {
+  font-size: 35px;
+}
+.logo-img {
+  height: 100px;
+  width: auto;
+  border-radius: 100%;
+}
+#nav-links li {
+  margin-right: 50px;
+  height: auto;
+  width: auto;
+}
+/* --- ESTILO DOS LINKS (Texto) --- */
+li,
+a {
+  flex-direction: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding: 5px 0;
+  letter-spacing: 1px;
+}
+#imagem-capa {
+  width: 100%;
+  height: 85vh;
+}
+#imagem-capa img {
+  width: 100%;
+  height: 85vh;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+}
+h1 {
+  font-size: 28px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: rgb(209, 184, 120);
+  padding: 25px;
+  letter-spacing: 1.5px;
+}
+/* SEÇÃO DE DUAS COLUNAS */
+.elden-ring-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  width: 90%;
+  margin: 80px auto;
+}
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.coluna-esquerda img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  display: block;
+  margin-bottom: 25px;
+  opacity: 0.9;
+  border: 1px solid rgba(209, 184, 120, 0.5);
+}
+.coluna-direita {
+  padding-left: 15px;
+  border-left: 1px solid rgba(209, 184, 120, 0.8);
+  color: rgb(250, 242, 222);
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: left;
+  padding-right: 20px;
+}
+.coluna-direita p {
+  margin: 1.2px 0;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  color: rgb(250, 242, 222);
+  padding: 0;
+}
+.coluna-direita h5 {
+  font-family: "Playfair Display", serif;
+  color: rgb(209, 184, 120);
+  margin-top: 1.5px;
+  margin-bottom: 0.5px;
+  line-height: 1.3p;
+  font-weight: bold;
+  font-size: 18px;
+}
+.coluna-direita ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1.5px;
+}
+.coluna-direita ul li {
+  position: relative;
+  padding-left: 0px;
+  padding-top: 0;
+  margin-bottom: 0.8px;
+}
+.coluna-direita ul li::before {
+  color: rgb(209, 184, 120);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
